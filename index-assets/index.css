@@ -109,16 +109,21 @@ header {
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-    #filter,
-    .cart-help {
+    #filter{
         position: static; /* Removes absolute positioning */
         flex: 1 1 100%; /* Allows wrapping and takes full width */
         text-align: center; /* Centers the content */
         margin-bottom: 1rem; /* Adds spacing */
     }
 
+    .cart-help {
+        position: static; /* Removes absolute positioning */
+        flex: 1 1 100%; /* Allows wrapping and takes full width */
+        text-align: center; /* Centers the content */
+    }
+
     #search-bar {
-        width: 100%; /* Makes search bar span full width */
+        flex: 1 1 100%; /* Makes search bar span full width */
         margin-bottom: 1rem;
     }
 }
