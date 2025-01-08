@@ -99,8 +99,12 @@ header {
 
 .cart-help {
     position: absolute;
-    right: 0.5rem;
-    
+    right: 0.5rem;  
+}
+
+#help, #cart {
+    margin: 0 0.5rem;
+    font-size: 0.8rem;
 }
 
 
