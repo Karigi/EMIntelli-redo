@@ -92,9 +92,10 @@ header {
 
 #search-bar input {
     width: 100%;
-    height: 2rem;
+    height: 2.5rem;
     border: 1px solid rgb(35, 204, 100);
     padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .cart-help {
@@ -106,6 +107,22 @@ header {
     margin: 0 0.5rem;
     font-size: 0.8rem;
 }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+    background-color: rgb(35, 204, 100);
+    color: whitesmoke;
+}
+
+footer p {
+    
+}
+
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
@@ -126,6 +143,7 @@ header {
         flex: 1 1 100%; /* Makes search bar span full width */
         margin-bottom: 1rem;
     }
+    
 }
 
 
